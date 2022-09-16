@@ -1,17 +1,18 @@
 # Next.js Commerce with Agility CMS
 
-The all-in-one starter kit for high-performance e-commerce sites. With a few clicks, Next.js developers can clone, deploy and fully customize their own store, managed with Agility CMS.
-Start right now!
+The all-in-one starter kit for high-performance e-commerce sites. With a few clicks, Next.js developers can clone, deploy and fully customize their own store, managed with Agility CMS. Start right now!
 
 Demo live at: [nextjs-commerce-agility-cms.vercel.app](https://nextjs-commerce-agility-cms.vercel.app/)
 
-Support Ecommerce Platforms
-- Shopify
-- Swell
-- BigCommerce
-- Vendure
-- Saleor
+## Get started with Shopify
+[Next.js Commerce Starter with Shopify](https://agilitycms.com/docs/nextjs/how-the-next-js-commerce-starter-works#bBDs_-S1SY)
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=http%3A%2F%2Fgithub.com%2Fagility%2Fnextjs-commerce-agilitycms&project-name=nextjs-commerce-agilitycms&repo-name=nextjs-commerce-agilitycms&demo-title=Next.js%20Commerce%20Agility%20CMS&demo-description=Clone%2C%20deploy%20and%20fully%20customize%20your%20own%20E-Commerce%20store%2C%20managed%20with%20Agility%20CMS.&demo-url=https%3A%2F%2Fnextjs-commerce-agility-cms.vercel.app%2F&demo-image=https%3A%2F%2Fstatic.agilitycms.com%2FAttachments%2FNewItems%2Fshop-2_20210816163944_0.png&integration-ids=oac_Dnqk9CoC6rZ18k9nVR9KresV,oac_9HSKtXld74NG0srzdxSiBGty&external-id=%7B%20%E2%80%9CgithubRepo%E2%80%9D%3A%20%E2%80%9Cgithub.com%2Fagility%2Fnextjs-commerce-agilitycms%E2%80%9D%20%7D)
+
+## Get Started with BigCommerce
+[Next.js Commerce Starter with BigCommerce](https://agilitycms.com/docs/nextjs/how-the-next-js-commerce-starter-works#yDFzQ6WO7W)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=http%3A%2F%2Fgithub.com%2Fagility%2Fnextjs-commerce-agilitycms&project-name=nextjs-commerce-agilitycms&repo-name=nextjs-commerce-agilitycms&demo-title=Next.js%20Commerce%20Agility%20CMS&demo-description=Clone%2C%20deploy%20and%20fully%20customize%20your%20own%20E-Commerce%20store%2C%20managed%20with%20Agility%20CMS.&demo-url=https%3A%2F%2Fnextjs-commerce-agility-cms.vercel.app%2F&demo-image=https%3A%2F%2Fstatic.agilitycms.com%2FAttachments%2FNewItems%2Fshop-2_20210816163944_0.png&integration-ids=oac_Dnqk9CoC6rZ18k9nVR9KresV,oac_MuWZiE4jtmQ2ejZQaQ7ncuDT&external-id=%7B%20%E2%80%9CgithubRepo%E2%80%9D%3A%20%E2%80%9Cgithub.com%2Fagility%2Fnextjs-commerce-agilitycms%E2%80%9D%20%7D)
 
 ## Features
 
@@ -27,7 +28,7 @@ Support Ecommerce Platforms
 
 ## Integrations
 
-Next.js Commerce integrates out-of-the-box with BigCommerce, Shopify, Swell, Saleor and Vendure. We plan to support all major ecommerce backends.
+Next.js Commerce integrates out-of-the-box with Shopify and BigCommerce. We plan to support all major ecommerce backends in the future.
 
 Agility CMS for Page and Content Management
 
