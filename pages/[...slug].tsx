@@ -69,7 +69,7 @@ export async function getStaticProps({ preview, params, locale, locales, default
 			// We throw to make sure this fails at build time as this is never expected to happen
 			throw new Error(`Page not found`)
 		}
-
+console.log("props:", agilityProps)
 		return {
 			props: { agilityProps },
 			revalidate: rebuildFrequency
