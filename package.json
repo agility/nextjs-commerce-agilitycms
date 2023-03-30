@@ -21,9 +21,7 @@
   },
   "sideEffects": false,
   "license": "MIT",
-  "engines": {
-    "node": ">=14.x"
-  },
+
   "dependencies": {
     "@agility/content-fetch": "^1.1.1",
     "@agility/content-sync": "^1.0.3",
