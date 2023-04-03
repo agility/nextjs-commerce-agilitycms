@@ -62,7 +62,7 @@ const ProductSidebar: FC<ProductSidebarProps> = ({ product, className }) => {
           </div>
         </div>
         <div>
-          {/* <Button
+          <Button
           aria-label="Add to Cart"
           type="button"
           className={s.button}
@@ -73,9 +73,9 @@ const ProductSidebar: FC<ProductSidebarProps> = ({ product, className }) => {
           {variant?.availableForSale === false
             ? 'Not Available'
             : 'Add To Cart'}
-        </Button> */}
+        </Button>
 
-          <Button
+          {/* <Button
             aria-label="Buy Now"
             type="button"
             className={s.button}
@@ -89,7 +89,7 @@ const ProductSidebar: FC<ProductSidebarProps> = ({ product, className }) => {
             disabled={variant?.availableForSale === false}
           >
             {variant?.availableForSale === false ? 'Not Available' : 'Buy Now'}
-          </Button>
+          </Button> */}
         </div>
         <div className="mt-6">
           <Collapse title="Care">

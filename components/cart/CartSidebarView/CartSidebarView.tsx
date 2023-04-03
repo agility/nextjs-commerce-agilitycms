@@ -1,6 +1,6 @@
 import cn from 'classnames'
 import Link from 'next/link'
-import { FC } from 'react'
+import { FC, useRef, useState } from 'react'
 import s from './CartSidebarView.module.css'
 import CartItem from '../CartItem'
 import { Button, Text } from '@components/ui'
@@ -9,6 +9,7 @@ import { Bag, Cross, Check } from '@components/icons'
 import useCart from '@framework/cart/use-cart'
 import usePrice from '@framework/product/use-price'
 import SidebarLayout from '@components/common/SidebarLayout'
+import { CheckoutModal } from '@components/stripe-checkout/checkout-modal'
 
 const CartSidebarView: FC = () => {
   const { closeSidebar, setSidebarView } = useUI()
@@ -28,7 +29,8 @@ const CartSidebarView: FC = () => {
   )
   const handleClose = () => closeSidebar()
   const goToCheckout = () => setSidebarView('CHECKOUT_VIEW')
-
+  const [loading, setLoading] = useState(false)
+  const modalRef = useRef(null)
   const error = null
   const success = null
 
@@ -109,7 +111,7 @@ const CartSidebarView: FC = () => {
               <span>{total}</span>
             </div>
             <div>
-              {process.env.COMMERCE_CUSTOMCHECKOUT_ENABLED ? (
+              {/* {process.env.COMMERCE_CUSTOMCHECKOUT_ENABLED ? (
                 <Button Component="a" width="100%" onClick={goToCheckout}>
                   Proceed to Checkout ({total})
                 </Button>
@@ -117,11 +119,27 @@ const CartSidebarView: FC = () => {
                 <Button href="/checkout" Component="a" width="100%">
                   Proceed to Checkout
                 </Button>
-              )}
+              )} */}
+              <Button
+                aria-label="Buy Now"
+                type="button"
+                className={s.button}
+                onClick={() => {
+                  if (modalRef.current) {
+                    // @ts-ignore
+                    modalRef.current.show()
+                  }
+                }}
+                loading={loading}
+
+              >
+                Checkout
+              </Button>
             </div>
           </div>
         </>
       )}
+      <CheckoutModal ref={modalRef} />
     </SidebarLayout>
   )
 }
